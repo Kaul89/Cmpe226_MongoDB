@@ -1,0 +1,8 @@
+extends layout
+
+block content
+    h1.
+        Books Item List
+    ul
+        each item, i in Books 
+            li Title: #{item.Title}, Genre: #{item.Genre}, Author: #{item.Author}

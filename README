@@ -1,0 +1,22 @@
+Cmpe 226 Mongo DB project
+
+Folder Node consist of the nodetest2 folder
+nodetest2 folder consist of the following
+
+1.data folder: mongodb data
+2.views folder: Cataloglist.jade
+                Books.jade
+	        Television.jade
+                Refrigerator.jade
+                NailPolish.jade		
+3. Package.json
+4. app.js
+5. Routes folder: index.js
+	          users.js
+
+
+
+	      
+
+
+ 

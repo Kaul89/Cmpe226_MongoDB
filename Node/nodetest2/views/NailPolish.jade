@@ -1,0 +1,8 @@
+extends layout
+
+block content
+    h1.
+        NailPolish Item List
+    ul
+        each item, i in NailPolish
+            li SNo: #{item.SNo}, Brand: #{item.Brand}, Color: #{item.Color}

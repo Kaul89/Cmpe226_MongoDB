@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    h1.
+        Item List
+    ul
+        each user, i in CatalogList
+            li
+                a(href="/Books")= user.Item1
+                a(href="/Television")= user.Item2
+                a(href="/Refrigerator")= user.Item3
+                a(href="/NailPolish")= user.Item4
